@@ -1,0 +1,122 @@
+#banner {
+  padding: 80px 0px 100px 0px;
+  margin: 0px 0px 110px 0px;
+
+  background-color: #414141;
+}
+
+header.major {
+  padding: 0px 0px;
+}
+
+header.major p {
+  border-top: solid 2px #ca3e47;
+  color: white;
+}
+
+header.major h2 {
+  color: white;
+}
+
+#header h1 a {
+  font-weight: 300;
+  font-size: xx-large;
+  border: 0;
+  font-family: "Alegreya Sans SC";
+}
+
+#header nav > ul > li a {
+  font-family: "Alegreya Sans SC";
+}
+
+.box {
+  box-shadow: 0 2px #ca3e47;
+}
+
+.box.features .features-row {
+  border-top: solid 2px #ca3e47;
+}
+
+.box.features .features-row section:nth-child(2n):before {
+  background: #ca3e47;
+}
+
+.box.special {
+  color: white;
+}
+
+.box.special.fi {
+  background-color: #0f3460;
+}
+
+.box.special h3 {
+  color: white;
+}
+
+.box.special ul > li a {
+  color: white;
+}
+
+.button.alt:hover {
+  background-color: #ca3e47;
+}
+
+.box {
+  background-color: #313131;
+}
+
+body {
+  background-color: #525252;
+}
+
+#footer {
+  background-color: #ca3e47;
+  color: white;
+}
+
+#footer .icons a {
+  color: white;
+  opacity: 1;
+}
+
+#footer .icons a:hover {
+  color: springgreen;
+}
+
+#footer .copyright {
+  color: white;
+}
+
+#nav {
+  background-color: #ca3e47;
+}
+
+.post h2 {
+  color: white;
+}
+
+.post {
+  color: white;
+}
+
+.post h1 {
+  color: #ca3e47;
+}
+
+.box h4 {
+  margin-top: 20px;
+  color: #0cacee;
+  text-align: center;
+}
+
+.box strong {
+  color: #0cacee;
+}
+
+a {
+  color: #0cacee;
+}
+
+blockquote {
+  border-left: 4px solid #ca3e47;
+}

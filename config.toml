@@ -1,0 +1,141 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+
+theme = "alpha-church"
+
+rssLimit = 5
+paginate = 4
+
+enableEmoji = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+enableInlineShortcodes = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[taxonomies]
+  tag = "tags"
+
+#This theme can generate a multi-level menu.
+#Use weight= to specify the order of menu items, and parent= to create a submenu item.
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Beliefs"
+    url = "#"
+    weight = 2
+
+  [[menu.main]]
+    name = "Allah"
+    parent = "Beliefs"
+    url = "/Allah"
+    weight = 1
+
+  [[menu.main]]
+    name = "Quran and Sunnah"
+    parent = "Beliefs"
+    url = "/quranandsunnah"
+    weight = 2
+
+  [[menu.main]]
+    name = "Practice"
+    url = "#"
+    weight = 3
+
+  [[menu.main]]
+    name = "Taqiyyah"
+    url = "/taqiyyah"
+    parent = "Practice"
+    weight = 1
+
+  [[menu.main]]
+    name = "Shariah"
+    url = "/shariah"
+    parent = "Practice"
+    weight = 2
+
+  [[menu.main]]
+    name = "Pillars"
+    url = "/pillars"
+    parent = "Practice"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+
+# Paramaters for the whole site
+[params]
+  title = "Who Is Khalil Andani?"
+  subtitle = ""
+  author = "Agakhanism"
+  keywords = ["Khalil", "Andani", "Ismailism", "Agakhanism", "Ismaili", "Gnosis"]
+  languageCode = "en" 
+  instant_page = true
+
+  customCSS = ["/css/my.css"]
+
+  [params.favicon]
+    sml = "img/favicon-16x16.png"
+    med = "img/favicon-32x32.png"
+
+  [params.banner]
+    image = ""
+
+  [params.style]
+    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab", "Alike Angular", "Alegreya Sans SC"]
+
+  
+
+
+
+  [params.contact]
+    #Use this section to automate contact form.
+    #Set service to either "netlify", "formspree" or "php"
+    #For formspree, please setup an account at https://formspree.io/
+    #For netlify, please read https://www.netlify.com/docs/form-handling/
+    #
+    #If you use netlify, you'll need to set the confirm_page value (otherwise users will see a generic netlify response)
+    #If you use formspree, you'll need to set your formspree form_id.
+    #
+    #If you use php, you need to host this site on a Server capable of running php.
+    # Please edit the /static/contact_mail.php file from the exampleSite.
+    service = "netlify" #or "formspree" or "php"
+    confirm_page = "/contact_thanks" #only used by netlify
+    # formspree_formid="" #only used by formspree
+
+
+    [params.footer]
+      copyright = ["Brought to you by Agakhanism.com"]
+
+    [[params.links]]
+      service = "Twitter"
+      icon = "fa-twitter"
+      icon_pack = "fab"
+      link = "//twitter.com/"
+
+    [[params.links]]
+      service = "Facebook"
+      icon = "fa-facebook"
+      icon_pack = "fab"
+      link = "//facebook.com/"
+
+    [[params.links]]
+      service = "Podcast"
+      icon = "fa-podcast"
+      icon_pack = "fas"
+      link = "/sermons/index.xml"
+
+    [[params.links]]
+      service = "Full RSS Feed"
+      icon = "fa-rss"
+      icon_pack = "fas"
+      link = "/index.xml"
