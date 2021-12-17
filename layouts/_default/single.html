@@ -7,9 +7,9 @@
 						{{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
 					</header>
 					<div class="box">
-						{{ with .Params.images }}
+						<!--{{ with .Params.images }}
 							<span class="image featured"><img src="{{ index . 0 | absURL }}" alt=""></span>
-						{{ end }}
+						{{ end }}-->
 						{{ .Content }}
 						{{ if or .Params.tags .Params.date }}
 							<hr />
