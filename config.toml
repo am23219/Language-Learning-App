@@ -81,7 +81,7 @@ enableInlineShortcodes = true
   languageCode = "en" 
   instant_page = true
 
-  customCSS = ["/css/my.css"]
+  customCSS = ["static/css/my.css"]
 
   [params.favicon]
     sml = "/img/favicon-16x16.png"
