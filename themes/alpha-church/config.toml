@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://keen-chandrasekhar-9ba99f.netlify.app/"
 title = "Alpha Church"
 
 [module]
