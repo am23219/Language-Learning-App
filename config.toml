@@ -9,7 +9,7 @@ paginate = 4
 enableEmoji = true
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "G-62XMR1JDQ3"
 
 enableInlineShortcodes = true
 
@@ -114,7 +114,7 @@ enableInlineShortcodes = true
 
 
     [params.footer]
-      copyright = ["Brought to you by RethinkingIsmailism"]
+      copyright = ["Brought to you by RethinkingIsmailism and NamaziIsmaili"]
 
     [[params.links]]
       service = "Twitter"
