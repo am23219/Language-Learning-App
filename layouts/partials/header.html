@@ -23,9 +23,6 @@
 		{{ hugo.Generator }}
 		{{- with .Site.Params.Favicon.sml}}<link rel="shortcut icon" href="{{ . }}" sizes="16x16"/>{{ end -}}
 		{{- with .Site.Params.Favicon.med}}<link rel="shortcut icon" href="{{ . }}" sizes="32x32"/>{{ end -}}
-		{{ with .Site.Params.Podcast.itunes }}
-			<meta name="apple-itunes-app" content="app-id={{ replaceRE "https\\:\\/\\/itunes\\.apple\\.com\\/[a-z]{2}\\/podcast\\/[a-z\\-]*\\/id(\\d{10}).*" "$1" . }}" />
-		{{ end }}
 		{{ template "_internal/opengraph.html" . }}
 		{{ template "_internal/twitter_cards.html" . }}
 		<link rel="stylesheet" href="{{ "fontawesome/css/all.min.css" | absURL }}" />

@@ -84,8 +84,8 @@ enableInlineShortcodes = true
   customCSS = ["/css/my.css"]
 
   [params.favicon]
-    sml = "img/favicon-16x16.png"
-    med = "img/favicon-32x32.png"
+    sml = "/img/favicon-16x16.png"
+    med = "/img/favicon-32x32.png"
 
   [params.banner]
     image = ""
