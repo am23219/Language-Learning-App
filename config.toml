@@ -114,7 +114,7 @@ enableInlineShortcodes = true
 
 
     [params.footer]
-      copyright = ["Brought to you by Affan Ali"]
+      copyright = ["Brought to you by RethinkingIsmailism"]
 
     [[params.links]]
       service = "Twitter"
