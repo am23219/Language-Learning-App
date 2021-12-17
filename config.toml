@@ -76,7 +76,7 @@ enableInlineShortcodes = true
 [params]
   title = "Who Is Khalil Andani?"
   subtitle = ""
-  author = "Agakhanism"
+  author = "Affan Ali"
   keywords = ["Khalil", "Andani", "Ismailism", "Agakhanism", "Ismaili", "Gnosis"]
   languageCode = "en" 
   instant_page = true
@@ -114,7 +114,7 @@ enableInlineShortcodes = true
 
 
     [params.footer]
-      copyright = ["Brought to you by Agakhanism.com"]
+      copyright = ["Brought to you by Affan Ali"]
 
     [[params.links]]
       service = "Twitter"
